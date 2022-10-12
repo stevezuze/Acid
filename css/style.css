@@ -1,4 +1,4 @@
-@import url(@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap');
 
 body{
     background-color: #1f1f1f;
@@ -28,9 +28,9 @@ li, a{
     color:#F2EDED;
     text-decoration: none;
 }
-button{
+.cta{
     margin-left: 10px;
-    padding: 8px 8px;
+    padding: 12px 8px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
@@ -46,3 +46,78 @@ button{
 /*Nav bar css*/
 
 /*hero section css*/
+.heroc{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+.heroT{
+    margin-top: 30px;
+    max-width: 800px;
+}
+
+h1{
+    color: #F2EDED;
+    font-size: 60px;
+    font-weight: 800;
+}
+h3{
+    color: #2CA9D6;
+    font-size: 20px;
+    font-weight: 500;
+    width: 600px;
+}
+.ctahc{
+    padding: 12px 8px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #F2EDED;
+    background-color: #2CA9D6;
+}
+.ctas{
+    margin-left: 10px;
+    padding: 12px 8px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #1f1f1f;
+    font-weight: 700;
+    background-color: #FFEF0A;
+}
+.iphone{
+    height: 450px;
+    margin-top: 50px;
+    padding-right: 100px;
+}
+.imp{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.partnerc{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 40px;
+}
+.logop1{
+    height: 40px;
+}
+.logop2{
+    height: 80px;
+}
+.logop3{
+    height: 120px;
+}
+.logop4{
+    width: 180px;
+}
+/*hero section css*/
+
